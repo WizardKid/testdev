@@ -6,7 +6,7 @@ begin
       address: 'smtp.sendgrid.net',
       port: CatarseSettings.get_without_cache(:sendgrid_port),
       authentication: :plain,
-      user_name: CatarseSettings.get_without_cache(:app95244310@heroku.com),
+      user_name: CatarseSettings.get_without_cache(:sendgrid_user_name),
       password: CatarseSettings.get_without_cache(:sendgrid),
       domain: 'heroku.com'
     }
