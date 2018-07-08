@@ -1,0 +1,129 @@
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+DEPRECATION WARNING on line 87 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$moz-"#{$experimental-support-for-mozilla} "$webkit-"#{$experimental-support-for-webkit} "$opera-"#{$experimental-support-for-opera} "$microsoft-"#{$experimental-support-for-microsoft} "$khtml-"#{$experimental-support-for-khtml}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+DEPRECATION WARNING on line 92 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$ie6-"#{$legacy-support-for-ie6} "$ie7-"#{$legacy-support-for-ie7} "$ie8-"#{$legacy-support-for-ie8}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+DEPRECATION WARNING on line 87 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$moz-"#{$experimental-support-for-mozilla} "$webkit-"#{$experimental-support-for-webkit} "$opera-"#{$experimental-support-for-opera} "$microsoft-"#{$experimental-support-for-microsoft} "$khtml-"#{$experimental-support-for-khtml}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+DEPRECATION WARNING on line 92 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$ie6-"#{$legacy-support-for-ie6} "$ie7-"#{$legacy-support-for-ie7} "$ie8-"#{$legacy-support-for-ie8}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+  [1m[36mCatarseSettingsDb::Setting Load (43.1ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "aws_access_key"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.8ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "google_api_id"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.6ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "google_api_secret"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.4ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "secret_key_base"]]
+  [1m[36mOauthProvider Load (10.1ms)[0m  [1mSELECT "oauth_providers".* FROM "oauth_providers"[0m
+  [1m[35mCatarseSettingsDb::Setting Load (0.9ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "aws_access_key"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.9ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "pagarme_test_api_key"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.5ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "pagarme_test_encryption_key"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.5ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "pagarme_slip_tax"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.5ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "pagarme_credit_card_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.5ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "pagarme_interest_rate"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.6ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "pagarme_cents_fee"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.6ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "host"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.6ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "pagarme_max_installments"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.7ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "pagarme_minimum_value_for_installment"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.7ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "pagarme_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.8ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "cielo_tax"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.7ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "antifraud_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.8ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "stone_tax"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.8ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "stone_installment_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.8ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "cielo_installment_diners_tax"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.8ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "cielo_installment_not_diners_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.7ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "cielo_installment_amex_tax"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.7ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "cielo_installment_not_amex_tax"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.8ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "secret_token"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.8ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "secret_token"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.7ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "secret_key_base"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.7ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "secret_key_base"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.7ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "secret_token"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.7ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "email_system"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.6ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "email_contact"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.5ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "company_name"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.7ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "youtube_key"]]
+  [1m[35mCatarseSettingsDb::Setting Load (0.6ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1  [["name", "vimeo_key"]]
+  [1m[36mCatarseSettingsDb::Setting Load (0.6ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = $1 LIMIT 1[0m  [["name", "sentry_dsn"]]
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+Unable to autoload constant User::OmniauthHandler, expected /home/wizard/testdev/app/models/concerns/user/omniauth_handler.rb to define it excluded from capture: No host specified, no public_key specified, no project_id specified
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+DEPRECATION WARNING on line 87 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$moz-"#{$experimental-support-for-mozilla} "$webkit-"#{$experimental-support-for-webkit} "$opera-"#{$experimental-support-for-opera} "$microsoft-"#{$experimental-support-for-microsoft} "$khtml-"#{$experimental-support-for-khtml}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+DEPRECATION WARNING on line 92 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$ie6-"#{$legacy-support-for-ie6} "$ie7-"#{$legacy-support-for-ie7} "$ie8-"#{$legacy-support-for-ie8}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+bad URI(is not URI?): redis://h:p0de2c08277b1e64e44f9e74c27d0924ec47a04801147218286bc539f40600c13@ec2-52-16-59-40.eu-west-1.compute.amazonaws.com:14729
+ excluded from capture: DSN not set
+Raven 2.7.4 configured not to capture errors: No host specified, no public_key specified, no project_id specified
+DEPRECATION WARNING on line 87 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$moz-"#{$experimental-support-for-mozilla} "$webkit-"#{$experimental-support-for-webkit} "$opera-"#{$experimental-support-for-opera} "$microsoft-"#{$experimental-support-for-microsoft} "$khtml-"#{$experimental-support-for-khtml}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+
+DEPRECATION WARNING on line 92 of /home/wizard/.rvm/gems/ruby-2.4.4/gems/compass-core-1.0.3/stylesheets/compass/css3/_deprecated-support.scss:
+#{} interpolation near operators will be simplified in a future version of Sass.
+To preserve the current behavior, use quotes:
+
+  unquote('"$ie6-"#{$legacy-support-for-ie6} "$ie7-"#{$legacy-support-for-ie7} "$ie8-"#{$legacy-support-for-ie8}')
+
+You can use the sass-convert command to automatically fix most cases.
+
+

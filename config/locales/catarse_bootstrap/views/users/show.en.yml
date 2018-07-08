@@ -1,0 +1,164 @@
+en:
+  users:
+    balance:
+      value_text: 'Value'
+      value: 'value'
+      request_fund: 'Request withdrawal'
+      event_names:
+        successful_project_pledged: 'Collection of financed project %{project_name}'
+        catarse_project_service_fee: 'OppoStarter Service Fee (%{service_fee}%)'
+        irrf_tax_project: 'Taxes generated from the invoice of OppoStarter for PJ'
+        balance_transfer_request: 'Transfer request to bank account'
+        balance_transfer_error: 'Error in transfer to bank account'
+        balance_transfer_project:  'Transfer request to bank account'
+        project_contribution_chargeback: 'Payment disputed by the supporter: %{contributor_name}'
+        project_contribution_reverse_chargeback: 'Payment confirmed after request by the supporter: %{contributor_name}'
+        project_contribution_confirmed_after_finished: 'Payment confirmed after completed project: %{project_name}'
+        catarse_contribution_fee: 'Oppostarter Service Fee (%{service_fee}%)'
+        contribution_refund: 'Project reimbursement %{project_name}'
+        refund_contributions: 'Reimbursement for project supporters %{project_name}'
+      debit: 'Debit'
+      credit: 'Credit'
+      totals: 'Balance '
+      totals_transactions_title: 'Extract ( balance in account: US$ %{value} )'
+      day_balance: 'Balance of the day'
+      withdraw: "Withdraw money"
+      withdraw_cta: 'US$ Perform Withdrawal'
+      success_message: 'Your draft has been successfully requested. In up to 10 business days, your money will be in your bank account!'
+      bank:
+        account: "Account:"
+        name: 'Name / Company Name:'
+        cpf_cnpj: 'CPF / CNPJ:'
+        bank_name: 'Bank:'
+        agency: 'Agency'
+    profile:
+      user_since: "Joined since %{date}"
+      no_project_contribution: "Has not yet supported projects"
+      single_project_contribution: "Supported 1 project"
+      multiple_project_contribution: "Supported %{n_projects} projects"
+      single_project_created: " and already created 1 project"
+      multiple_project_created: " and already created %{n_projects} projects"
+    contribution_row:
+      anonymous: I want my support to be anonymous
+      print_slip: Print Ticket
+      slip_copy: Generate 2nd via
+      status: Status
+      contact_author: "Send Message"
+      show_receipt: 'View Receipt'
+      contributed_projects: "Projects I supported"
+      contribution_value: "Value of support"
+      contribution_status: "Support Status"
+      request_refund: 'Request refund'
+      reward: Reward
+      no_reward: "You have not selected a reward"
+      delivery_estimate: "Estimated delivery:"
+      delivery_status: "Delivery status:"
+      answer_survey: "Answer the questionnaire"
+    card:
+      twitter_profile: "Twitter Profile"
+      facebook_profile: "Facebook Profile"
+      author_website: "Site"
+      contact_author: "Send Message"
+    failed_reactivation: "The reactivation link is invalid, please contact our team."
+    reactivated: "Welcome back, your account has been reactivated."
+    project:
+      confirmed: "Confirmed"
+      refunded: "Refunded"
+      requested_refund: "Reimbursement Requested"
+      waiting_confirmation: "Waiting confirmation"
+      tell_about_this_contribution: Tell the world about your support!
+    credit_cards:
+      index:
+        last_digits: 'Card'
+        brand: 'Operator'
+        title: 'Credit cards'
+        remove: 'Remover'
+    credits:
+      modal:
+        title: 'Do you really want to claim reimbursement for your support??'
+        text: "Learn how the reimbursement process works in Oppostarter:"
+        link: "Rules and How Reimbursements Work / chargebacks"
+        reject_btn: "No, I want to keep my credits"
+        accept_btn: "Yes, I would like to request a refund of my"
+      index:
+        contribution_date: "Date of support"
+        current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credits."
+        important_html: "To know all the refund working rules, <a href='http://suporte.catarse.me/hc/pt-br/articles/202365507-Regras-e-funcionamento-dos-reembolsos-estornos' target='_blank'>click here</a>. Any questions, access our <a href='https://support.oppostarter.com' target='_blank'>support</a>."
+        project: Project
+        refunded: "Request confirmed. We will contact you within 4 working days."
+        insufficient_credits: "You do not have enough credits to make this chargeback."
+        refunds_title: "Supports that can be refund"
+        request_refund: "Requested refunded"
+        requested_refund: "Requested refunded"
+        status: Status
+        title: "MMy Credits"
+        value: Amount
+      refund:
+        cannot_refund: "This support can not be refunded."
+        error: "Oops. There was an error requesting your chargeback."
+        no_credits: "You do not have enough credits to make this refund."
+        refunded: "This support has already been refunded."
+        requested_refund: "You have already requested a chargeback for this support."
+      title: "My credits"
+    current_user_fields:
+      bank_account_title: "Bank Details"
+      bank_account_hint: "Your bank details will be used to make full refund of your support, if the project does not reach 100% of the established goal."
+      my_facebook: 'Facebook integration'
+      bio_limit: 'up to 140 characters'
+      updated: "Your information has been updated"
+      update_social_info: "update the information"
+      social_info: "Contact information"
+      twitter: "Twitter ( user )"
+      facebook_link: "Facebook profile (complete link)"
+      other_link: "link from your website"
+      change_password: "Change my password"
+      current_password_hint: "<i>In order for the password to be changed you need to confirm your current password.</i>"
+      email_hint: "Your email will only be used for sending communications from OppoStarter and the projects you support. It will not be visible in your profile. When you support a project, we will give your email to the project owner so you can arrange the rewards."
+      email_tooltip: "Click here to fill in your email..."
+      gravatar_hint_html: "You can also change your photo using the %{link} with your email. <br>It is as simple as uploading an image and it already works for other sites as well ;)"
+      local_avatar: "My avatar"
+      submit_text: "Choose your image"
+      submit: "Submit"
+      my_data: "My details"
+      newsletter: "I want to receive news from OppoStarter by email"
+      password_hint: "<i>Leave blank if you do not want to change your password.</i>"
+      deactivate: "Disable my account"
+      deactivate_notice: "The account for %{name} was deactivated."
+      deactivate_confirm: "You want to disable this account?"
+      deactivate_hint: "All your support will be converted into anonymous details, your daetails will no longer be visible, you will automatically be remove from the system and your account will be permanently disabled."
+    unsubscribes:
+      projects_in_reminder: "Projects with active reminder:"
+      title: "Choose which projects you would like to receive notifications:"
+      posts: "I want to receive project updates"
+    show:
+      projects:
+        here: 'here'
+        no_projects: "%{name} has not yet done any project in OppoStarter. Will inspiration be hitting this hour??"
+        no_projects_current_user_html: "You have not done any projects in OppoStarter yet. Let the inspiration hit and click %{link} to begin!"
+        title: "Projects of %{name}"
+        title_current_user: "My Projects"
+      contributions:
+        project_col: Project
+        contribution_col: Support
+        reward_col: Reward
+        survey_col: Questionnaire
+        anonymous: "Anonymous support."
+        no_contributions: "%{name} has not yet supported any project. But we know it is just a matter of time! :D"
+        no_contributions_current_user_html: "You have not yet supported any projects. What about <a href=\"/\">starting now</a>?"
+        no_reward: "You have not selected any reward"
+        title: "Projects that %{name} already supported"
+        title_current_user: "Projects I have already supported"
+        your_reward: "Your reward"
+      attention: "Attention"
+      tabs:
+        credit_cards: 'Credit cards'
+        contributed_projects: "Support projects"
+        created_projects: "Projects Created"
+        comments: Comments
+        credits: Credits
+        settings: Preferences
+        unsubscribes: Notifications
+      user_social:
+        email: "Send me a email"
+        facebook: "Facebook profile"
+        twitter: "Profile on twitter"

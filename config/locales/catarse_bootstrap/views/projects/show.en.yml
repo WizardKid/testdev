@@ -1,0 +1,141 @@
+en:
+  projects:
+    about_mobile:
+      by: 'by'
+      back: '< Back'
+    project_embed:
+      insert: 'Insert a widget on your site'
+    mobile_video:
+      read_more: "Read More"
+    metrics:
+      titles:
+        confirmed_by_day: 'Total supports confirmed per day'
+        confirmed_amount_by_day: 'Total collected per day'
+        address_state: 'Total support confirmed by State'
+    reminder:
+      ok: 'Ok! We will email you a reminder 48 hours before the end of the campaign'
+      active_btn: 'Remind me of this project'
+      deactive_btn: 'I do not want to be remembered anymore'
+    announce_expiration: 'Your project is ending soon.'
+    announce_expiration_error: 'Ending soon already defined!'
+    send_to_analysis: Your project was sent to our team..
+    send_to_analysis_error: Error submitting project for review. Fill in all required fields.
+    push_to_online: Your project is online!
+    push_to_online_error: Error putting the project online. Fill in all required fields.
+    twitter:
+      take_a_look: Check the project %{name} on @oppostarter
+    video_embed:
+      a_project_by_html: A project of %{link} on
+    posts:
+      project_post:
+        exclusive: 'Exclusive post for supporters.'
+        unavailable: This news is only available to supporters.
+        contribute: Support
+        unavailable_contribute: this project to preview it.
+        destroy: Remove news
+        destroy_confirmation: Do you want to remove this news?
+      new:
+        notice: New successfully sent!
+        comment: Comments of your news
+        exclusive: Visible only to supporters
+        submit: Submit News
+        title: Title of your news
+        warning: Remember that every news goes directly to the email of
+           their supporters. So please review your text before sending it.
+    project_reports:
+      all_contributions_without_reward: Download report from all supporters
+         who did not select a reward
+      link_reports_confirmed: Download report of all confirmed supporters
+      link_reports_waiting_confirmation: Download report from all supporters
+         with printed ticket
+      link_reward: Download report of the supporters of the %{value}
+    project_about:
+      embed: < embed >
+      embed_title: Embed this project on your website
+      active_btn: ' Remind me of this project'
+      deactive_btn: ' I do not want to be remembered anymore'
+    show:
+      menu:
+        panel_html: "&nbsp;&nbsp;Control panel"
+        about: About
+        add_reward: Add reward
+        comments: Comments
+        contributions: Support
+        metrics: Metrics
+        edit: Edit
+        reports: Reports
+        posts: News
+    project_sidebar:
+      contributors_call: 'supported by '
+      contributors_count:
+        one: '1 person'
+        other: '{{count}} persons'
+      remaining_time:
+        days:
+          one: ' day remaining'
+          other: ' days remaining'
+        hours:
+          one: ' hour remaining'
+          other: ' hours remaining'
+        minutes:
+          one: ' minute remaining'
+          other: ' minutes remaining'
+        seconds:
+          one: ' second remaining'
+          other: ' seconds remaining'
+        dias:
+          one: ' day remaining'
+          other: ' days remaining'
+        horas:
+          one: ' hour remaining'
+          other: ' hours remaining'
+        minutos:
+          one: ' minute remaining'
+          other: 'minutes remaining'
+        segundos:
+          one: ' second remaining'
+          other: ' seconds remaining'
+        dia: ' day remaining'
+        hora: ' hour remaining'
+        minuto: ' minute remaining'
+        segundo: ' second remaining'
+      submit: Support this project
+      display_status:
+        approved: "This project has already been approved by OppoStarter. Soon it will be online and ready to receive support."
+        online: "You can support this project until the %{date} at 11:50 p.m."
+        failed: "This project has not reached the %{goal} up until %{date} and was not funded"
+        rejected: "This project has been canceled. Can not support.."
+        in_analysis: "This project is under analysis and is not yet open to receive support."
+        successful: "This project was successful and was funded in %{date}"
+        waiting_funds: "The funding deadline for this project is now closed. We are awaiting confirmation of the latest payments."
+        draft: "This project is only a draft and still can not receive support."
+      submit: Support this project
+    project_main:
+      post_call: 'All news published in OppoStarter is sent directly to the email of those who have already supported your project and is also available for viewing on the site. You can choose to leave it public, or visible only to your supporters here on this tab.'
+      send_post: 'Writing news'
+      share: "Share"
+      tweet: "Tweet"
+      project_by: project by
+      funding_period: Campaign period
+      project_header:
+        subtitle_html: "A project of %{link}"
+        without_city: "A project of"
+        with_city: "A project of %{category_name} by %{author} in %{city}"
+      menu:
+        about: About
+        add_reward: Add Reward
+        comments: Comments
+        contributions: Support
+        metrics: Metrics
+        edit: Edit
+        reports: Reports
+        posts: News
+      no_rewards_warning: Think about how you will deliver them and put everything
+         this in the budget. 
+      no_rewards_warning_title: Create your rewards here
+      contribution_states:
+        confirmed: "Confirmed"
+        pending: "Pending"
+      sidebar:
+        contributions: supports
+        goal: reached from %{total}

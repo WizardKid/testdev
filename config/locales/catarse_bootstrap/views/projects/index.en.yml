@@ -1,0 +1,81 @@
+en:
+  projects:
+    index_header:
+      subtitle: Fund projects collaboratively and become part of something
+         bigger. Promote a collective project! You are the missing piece in this story..
+      title: Make projects happen that you believe in
+    index:
+      title: 'OppoStarter'
+      back_a_project: 'Support a project'
+      banner_before: 'Remove '
+      banner_words:
+        0: 'dreams'
+        1: 'discos'
+        2: 'exhibitions'
+        3: 'researches'
+        4: 'carnivals'
+        5: 'photos'
+        6: 'theater performances'
+        7: 'documentaries'
+        8: 'books'
+        9: 'shows'
+        10: 'passions'
+        11: 'encounters'
+        12: 'music'
+        13: 'products'
+        14: 'attitudes'
+        15: 'films'
+        16: 'comic books'
+        17: 'ideas'
+      banner_after: ' Off Paper'
+      see_all: 'See all'
+      near_you: 'Near Me'
+      recents: Recents
+      blog: OppoStarter Blog
+      expiring: Ending Soon
+      recommended: Recommended
+      banner_subtitle: 'Music, comics, cinema, social impact, technology and more. Get to know, inspire and support projects.'
+      box:
+        by: per
+        when: in
+      banner: "Know the research"
+      explore: "Explore projects"
+      explore_categories:
+        16:
+          icon: "https://s3.amazonaws.com/cdn.catarse/assets/icon-music.png"
+          link: "http://crowdfunding.catarse.me/financiamento-coletivo-musica-independente"
+          title: "Launch your music on OppoStarter!"
+          cta: "Learn how"
+        20:
+          icon: "https://s3.amazonaws.com/cdn.catarse/assets/icon-publicacoes.png"
+          link: "https://crowdfunding.catarse.me/publicacoes-independentes-financiamento-coletivo"
+          title: "Launch your book or magazine on OppoStarter!"
+          cta: "Learn how"
+      links:
+        channels: "Discover the OppoStarter Channel"
+        recommended: "Discover Recommended Projects"
+        expiring: "Discover projects ending soon"
+        recents: "Discover recent projects"
+        near: "Discover projects near you"
+      sidebar:
+        titles:
+          blog: blog
+          facebook: "Already like our Facebook?"
+          newsletter: "Subscribe to our news"
+          faq: "Frequent Question"
+          schedule: schedule
+        placeholders:
+          email: "Type your e-mail"
+        buttons:
+          newsletter: Submit
+      sections:
+        near:
+          title: 'Near Me'
+        recommended:
+          title: 'Recommended'
+        expiring:
+          title: "End Soon"
+        recents:
+          title: "Recents"
+        channels:
+          title: 'Channel'

@@ -1,0 +1,17 @@
+en:
+  shared:
+    feedback:
+      button: 'Give feedback'
+      inputs:
+        submit: 'Send feedback'
+        close: 'Close'
+      placeholders:
+        email: 'Email'
+        text: 'Write your feedback'
+      texts:
+        title: "Share your thoughts!"
+        content: "In recent months we have been working day and night on a series of platform changes, which are detailed in this <a target='_blank' href='http://blog.catarse.me/os-passos-para-um-novo-catarse/' class='link-underline'> special post</a>. It would be incredible if we could hear from you what you think of this transformation. <br> Thank you!"
+        response:
+          title: "Wow! <br> Thank you ;)"
+          content: "We value every feedback received. We were unable to respond to each individually, but we listened carefully to every criticism and suggestion. Your comment will certainly be very important in our walk, and will help us to continuously improve your experience here at OppoStarter."
+

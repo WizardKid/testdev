@@ -1,0 +1,423 @@
+en:
+  projects:
+    flex_nav_actions:
+      publish: 'Continue'
+      announce_expiration: 'Set deadline'
+    aon_nav_actions:
+      publish: 'Continue'
+      send: 'Submit'
+    edit:
+      reward_html: "Rewards <span class='fontcolor-terciary'>(optional)</span>"
+      video_subtitle: 'Video is optional, but we highly recommend it! A good video makes the difference and can be largely responsible for the success of your project.'
+      reward_subtitle: "If you want to start the project without reward and add later also, feel free!"
+      video_html: "Video <span class='fontcolor-terciary'>(optional)</span>"
+      budget: "Budget"
+      posts: "Write a new story"
+      announce_expiration: 'Deadline for collection'
+      announce_expiration_subtitle: 'Choose the date well because you can not change it later. Once your deadline has expired, you will need to confirm your bank details. We will then deposit the money into your account within 10 business days.'
+      budget_subtitle: "How will your money be used? The more transparency the better. Show what steps and processes will be involved in using these resources. A list with the main budget items or even a pie chart go super well here."
+      card: 'Project Card'
+      card_subtitle: 'The project will appear on the homepage and in the search. Well, it makes it beautiful because they say the first impression is the one that stays ;)'
+      basics: 'Fill in the information below'
+      basics_subtitle: 'The details reported in this section can not be modified when the project is aired. Please complete and review before launching the project.. '
+      goal: 'Financing'
+      goal_subtitle: 'Please fill out the section below carefully as this information can no longer be changed once the project is online.'
+      reports: 'Support reports'
+      user_settings: 'Registration Details'
+      user_settings_subtitle: '<strong>Please fill in the fields below!</strong> They must identify the person responsible for the project and the receipt of the money (<a href="http://suporte.catarse.me/hc/pt-br/articles/213142846-tudo-sobre-CRIAR-UMA-CAMPANHA-NO-CATARSE#responsabilidade-realizador" target="blank">know more</a>). After completing this data, review and click SAVE. When everything is ready, just press the CONTINUE button to continue with the campaign publication..'
+      user_about: "About You!"
+      user_about_subtitle: "Supporters want to get to know project managers better. Links that help tell your story are always welcome. "
+      description: 'About Your Project!'
+      description_subtitle: 'Take a good look at the narrative of the project. Share your project with people and bring back supporters. A good video and description are differential!'
+    reward_fields:
+      edit: "Edit reward"
+      reward: Reward
+      reward_know_more_cta_html: '&nbsp;Know How&nbsp;<a target="_blank" href="https://catarse.attach.io/Hk5H9HKeZ" class="alt-link">plan your rewards.</a>'
+      reward_faq_intro: 'Before offering a reward, it is important to have all production and delivery processes planned.'
+      reward_faq_sub_intro: 'Tips for completing:'
+      faq:
+        1:
+          title: 'Reward Description and Title:'
+          description: 'They help supporters understand what you are offering. Be open and transparent! Learn more in this article <a href="http://suporte.catarse.me/hc/pt-br/articles/212191546-Recompensas-realizadores-#o-que-oferecer" target="_blank" class="alt-link">what you can and can not offer</a>  and get inspired with <a href="http://blog.catarse.me/mais-de-30-ideias-de-recompensa-para-seu-crowdfunding/" target="_blank" class="alt-link">rewards ideas</a>.'
+        2:
+          title: 'Reward Amount:'
+          description: 'Indicates how much the supporter must contribute to receive the reward. Try to offer a fair and realistic value. To help you define these values, we recommend <a href="http://blog.catarse.me/meta-crowdfunding-calculadora-orcamento/" target="_blank" class="alt-link">Budget Calculator</a>.'
+        3:
+          title: 'Estimated Delivery:'
+          description: 'Indicates when the supporter will receive the chosen reward. Be careful when setting this date so as not to frustrate your supporters. When in doubt, be conservative on time.'
+        4:
+          title: 'Type of delivery:'
+          description: 'How will the reward be sent and how much will it cost to the supporter. If you add a shipping cost, it will be added when the supporter selects the reward and the locale. <a href="http://blog.catarse.me/o-calculo-de-envio-de-recompensas-financiamento-coletivo/" target="_blank" class="alt-link">Know more</a>.'
+        5:
+          title: 'Number of rewards:'
+          description: 'You can also limit the rewards to a certain number of supports and change the order that rewards appear in your project. <a href="http://suporte.catarse.me/hc/pt-br/articles/212191546-tudo-sobre-RECOMPENSAS#como-editar" target="_blank" class="alt-link">Know more</a>.'
+      minimum_value_title: 'For US$ %{minimum_value} or more'
+      paid_contributors: '%{count} supporters'
+      reward_gone: 'Out of stock'
+      reward_limited: 'Limited'
+      delivery: 'Send'
+      reward_limited_input: 'Limited Reward'
+      reward_available: ' (%{available} in %{maximum} available)'
+      delivery_estimation: 'Estimated delivery: '
+      reward_link_label: 'Link to direct support'
+      reward_link_hint: 'The link below leads to the contribution page with this reward already selected.'
+      add_reward: '+ Add reward'
+      info_box: "Describe the reward amount and place a real delivery date forecast for the supporters. You can also limit a reward and when the limit is reached it appears as SOLD. If you want to change the order that the rewards appear in your project, simply do this by dragging them up or down."
+      minimum_value: "Amount:"
+      deliver_at: "Delivery forecast:"
+      description: "Description:"
+      delivery: "Send: "
+      status:
+        error: Sending error
+        delivered: Sent
+        received: Received
+      shipping_options:
+        free: 'No Shipping'
+        national: 'National Shipping'
+        international: 'National and International Shipping'
+        presential: 'Pickup'
+      limit_reward: "Limit reward"
+      available: "Available quantity"
+      submit: "Save"
+      index:
+        select_reward: "Select this reward"
+        display_remaining: "%{remaining} in %{maximum} available"
+        dont_want: "I do not want any reward"
+        limited: Limited
+        sold_out: Out of stock
+        contributions_to_confirm:
+          one: 1 support in confirmation period.
+          other: "%{count} support in confirmation period."
+        edit_reward: Edit reward
+        new_reward: New Reward
+        reward_deliver_time: "<b>Delivery Estimate:</b> %{estimate}"
+        reward_title: For %{minimum} or more
+    dashboard_insights:
+      finish_explanation: 'Your campaign is still open. In order to receive the funds in your bank account, you must set an end date for collection.'
+      know_more: ' Know More.'
+    dashboard_surveys:
+      title: Questionnaires
+      subtitle: 'Please check your supporters delivery addresses and ask other questions related to your rewards.'
+      help_link: 'Learn how to use <a href="https://suporte.catarse.me/hc/pt-br/articles/115003402146-Question%C3%A1rios-Como-envi%C3%A1-los-aos-seus-apoiadores" target="_blank" class="alt-link">Questionnaires in rewards management!</a>'
+      online_explanation: ' Since your project has not yet been finalized, you can only submit questionnaires to out-of-pocket rewards. After completion of the project, you can submit questionnaires to all supporters.'
+      create_survey: Create questionnaire
+    dashboard_contribution_reports:
+      help_link: 'Learn to use the <a href="https://suporte.catarse.me/hc/pt-br/articles/115003361423-Relat%C3%B3rio-de-apoios" target="_blank" class="alt-link">Support report!</a>'
+      title: 'Support report'
+      subtitle_html: 'Track support for your campaign and manage rewards delivery.'
+    dashboard_user_settings:
+       natural: "Full name of holder"
+       juridical: "Company Title"
+       title: "Registration and banking details"
+       subtitle_html: "With the data below complete, your project will be ready to air. After you complete the fill, click Save. Check it out. If everything is ok, just hit the Publish button and start your campaign!"
+       owner_document_natural: "CPF of bank account holder"
+       owner_document_juridical: "CNPJ of the bank account holder"
+       user_data_title: "Bank details"
+       user_data_subtitle_html: "This detail will be used for the issuance of our Nota Fiscal and for the transfer of the money, in case your project is successful."
+       account_subtitle_html: "We need the detail below to make the financial transfer to successful projects. <b>ATTENTION: The CPF / CNPJ listed in the registration data and banking data must be the same.</b>"
+       account_edit_disabled_html: "The information below was informed by you at the time of publication of your project. To avoid mistakes in passing on resources, the editing of this details was blocked as soon as your project went online. If you want to change them, it's just %{link} the changes you want to make."
+       submit: "Save"
+    dashboard_home_templates:
+      status: "Status:"
+      project_numbers:
+        financed: financed
+        backed: raised
+        contributions: supports
+        left: remaining
+      waiting_funds:
+        title: "%{name}, we are processing the last payments."
+        subtitle_html: "Your project was finalized in %{expires} and is awaiting confirmation of tickets and payments. Due to the expiration date of tickets, projects that had last-minute support stay for up to 4 business days in that status, counted from the project end date. %{link}."
+        header: "From here your project can reach the target or not. See what happens in each case:"
+        success: "Project Successful:"
+        failed: "Project Unsuccessful:"
+        good_luck: "Good luck!"
+      successful:
+        title: "%{name}, comemore que você merece!"
+        subtitle_html: "Your project was successful and now is the time to start working with your supporters! Special attention to the delivery of rewards. Delivered! Be sure to look at the post-project section of %{link1} and to inquire about %{link2}. "
+        header1: "And do not forget: transparency is everything."
+        transparent_html: "Keeping an informed supporter is keeping a supporter happy. Even if you are updating on a fault or setback. Happy supporters are %{link} . Therefore, use the field (always in moderation) of the news tab. Your updates will be send to your supporters' email box. Already starting to deliver rewards? In the field \"reports\" you can download information so that you can manage your project rewards delivery."
+        header2: "Be sure to read:"
+      rejected:
+        title: "%{name}, unfortunately it was not this time."
+        subtitle_html: "You have submitted your project for approval to OppoStarter and we understand that it is not in accordance with the site profile. Having a rejected project does not prevent you from submitting new projects for evaluation or reformulating your current project. Chat with our customer service! We recommend that you take a good look at the %{link1}  and in the %{link2}."
+      online:
+        title: "%{name}, Your campaign is online.!"
+        subtitle_html: "Your project is on the air and your campaign will close at 11:59:39 p.m. %{date}. Until that day and time you can receive support. Remember, it is all-or-nothing and you will only take the funds raised if you hit the goal that was intended. Access our %{link2} for other questions!"
+        explanation_html: |
+                    <div class='fontsize-base u-marginbottom-40 card card-terciary'>
+                      <p class='fontweight-bold'>
+                        With the project online, some information can no longer be edited
+                      </p>
+                      <p>
+                        You can no longer change:<br> - your goal after approval;<br> - the deadline;<br> - the project URL;<br> - the user who owns the project.
+                      </p>
+                      <p class='fontweight-bold'>
+                        Need more information about campaign processes? See the box next to it.
+                      </p>
+                      <p>
+                        The search&nbsp;%{link1} is also a good source of data on the UK scenario. A good read on the&nbsp; %{link2} can be inspiring. There you will find stories of successful projects and campaign tips.
+                      </p>
+                    </div>
+
+      failed:
+        title: "%{name}, do not get discouraged!"
+        subtitle_html: "Your project did not reached the target and we know that this is not the best of sensations. But do not be discouraged. Take the process as an apprenticeship and be sure to consider a second try. Do not worry, all your supporters will get the money back.. %{link}."
+        questions: "Enviamos também um email para você com duas perguntinhas. Se você tiver tempo e cabeça, seria ótimo se pudesse dar uma olhada. Seu feedback nos ajuda a construir um Catarse melhor e mais legal pra você."
+      draft:
+        title: "%{name}, build your project!"
+        subtitle: "The more careful and well-formatted a project, the greater the chances of it being successful in its campaign. Before submitting your project for our analysis, fill all the adjacent fields with care. You can save the changes and go back to the draft project as many times as you like. When everything is ready, click on the SEND button and we will contact you to evaluate your project."
+        subtitle_flex: "The more careful and well-formatted a project, the greater the chances of it being successful in its campaign. Before publishing your project, fill all the adjacent fields with care. You can save the changes and go back to the draft project as many times as you like. When everything is ready, click on the SEND button and we will contact you to evaluate your project."
+        study_title: "Did you feel you need to work harder to build your project? Check the links in the box next to."
+      approved:
+        title: "%{name}, your project was approved!"
+        subtitle_html: "For your project to go live, it is only necessary that you fill in the necessary details in the %{link1}. It is important to know that we charge the rate of 5% plus 3-5% Stripe processing fee of the total amount collected only for successful projects. Understand %{link2}. "
+      in_analysis:
+        title: "%{name}, you submitted your project for review and will receive our response within 4 business days"
+        subtitle_html: "Thank you! Our team will evaluate all the content of your project and within 4 business days you will receive an email informing if it has been Approved, Declined or if it will continue in Analysis for some more time so that you can make suggested adjustments. Take advantage of this time to gather feedback with people close to you!"
+    dashboard_analysis_success:
+      title: "%{name}, your project was submitted for review!"
+      subtitle: "You will receive our response within 4 business days in the email:"
+      next_steps: "While waiting for your response, you can continue editing your project! We also recommend that you go collecting feedback with people close to you and planning how your campaign will be."
+    dashboard_nav:
+      leave_link_html: "&nbsp; Exit Control Panel"
+      start_tab: ' My Campaign'
+      reports_tab: ' Support reports'
+      surveys_tab: ' Questionnaires'
+      preview_tab: Preview
+      posts_tab: ' News '
+      edit_project: ' Edit project '
+      send: Submit
+      announce_expiration: Set deadline
+      publish: Continue
+    dashboard_nav_links:
+      preview_tab: Preview
+      account_tab: Registration Details
+      basics_tab: Basic
+      goal_tab: Financing
+      budget_tab: Budget
+      card_tab: Project Card
+      description_tab: Description
+      video_tab: "Video <span class='fontsize-smallest fontcolor-secondary'>(optional)</span>"
+      rewards_tab: "Rewards <span class='fontsize-smallest fontcolor-secondary'>(optional)</span>"
+      about_you_tab: Public Profile
+    flex_dashboard_explanation:
+      flex:
+        kind_text: "You are participating in the flexible model trial period. Your participation is essential to understand how we can expand this model for all users. %{link}"
+        expiration_text: "In Flexible Campaign, your campaign active for up to 1 year! Once it is online, you will have the option to set a project end date (minimum of 2 days). After the campaign ends, you receive everything you've collected (discounted rates) within 10 business days."
+        expiration_title: "Deadline for collection"
+    dashboard_user_about:
+      submit: "Save"
+      twitter_label: "Twitter profile"
+      twitter_hint: "Paste your profile link"
+      other_link_label: "Presence on the internet"
+      other_link_hint: "Include links that help supporters understand why you are the right person to do this project. "
+      about_label: "About you"
+      about_hint: "Use this space if you want to better describe you, your company or your institution. Want to give credit to partners? Use some institutional video? This space is yours and use it any way you want. All this information will appear on the Tab About in your Public Profile."
+      facebook_link_label: "Facebook profile"
+      facebook_link_hint: "Paste your profile link"
+      uploaded_image_label: "Profile picture"
+      uploaded_image_hint: "This image will be used as your profile thumbnail (PNG, JPG 280x280 ideal size)"
+      name_label: "Name"
+      name_hint: "This is the name that users will see on your profile."
+      email_label: Registration Email
+      email_hint: Email for you to log on to OppoStarter and communicate with our team and its supporters
+    dashboard_goal:
+      want_more: 'Want to understand more?'
+      online_days_closed: 'Days Expiring'
+      online_days_closed_hint: 'Your project is already in the air with the capture time already defined. You can choose between 1 and 365 days. After publishing the project, you can not change this deadline.'
+      online_days_open: 'Days Online'
+      online_days_open_hint: 'Your project goes online without a set deadline. You will have the option to set a project end date (minimum of 1 day) at any time within a period of 12 months after publication.'
+      online_days_label: 'Collection time'
+      online_days_flex_hint: 'This is the period when your project will be online, open to fundraising. In Flex, you choose whether to publish your project with an already defined deadline or with an open deadline. <a class="alt-link" href=" https://catarse.attach.io/HJGoCzmJl" target="_blank">Know our tips for setting your deadline.</a>'
+      online_days_aon_hint: 'This is the period when your project will be online, open to fundraising. In All or Nothing, you can choose between 1 and 60 days.&nbsp;<a class="alt-link" href=" https://catarse.attach.io/HJGoCzmJl" target="_blank">Know our tips for setting your deadline.</a>'
+      goal_label: 'Goal of collection'
+      goal_hint: 'How much do you need to raise? Set a goal consistent with what your project proposes. Do not forget to include administrative fees in your calculation.'
+      goal_taxes_link: 'Understand OppoStarter Fee'
+      goal_taxes_label: 'OppoStarter Fee'
+      goal_taxes_watch_video_html: '<a class="fontsize-small" href="http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico" target="_blank">Watch our <span class="fontweight-bold">Basic budget video lesson</span></a>'
+      goal_aon_taxes_hint: 'It is the amount that will be deducted from your collection at the end of the campaign, regarding the services of OppoStarter and the methods of payment. If your project reaches or exceeds the target, 5% of the total collected at the end of the campaign will be charged. If your project does not reach the goal, all the money backed will be returned to your supporters after the campaign ends, at no cost to you. It is all or nothing!
+'
+      goal_flex_taxes_hint: 'It is the amount that will be deducted from your collection at the end of the campaign, regarding the services of OppoStarter and the means of payment. 5% of the total collected at the end of the campaign will be charged, regardless of whether the target is reached or not.'
+      mode_label: 'Type of financing'
+      mode_hint: 'Choose the template for your collective financing campaign. After starting your campaign, you will not be allowed to.'
+      mode_diff_ebook: '<a class="fontsize-small" href="https://catarse.attach.io/BkLCRfXyg" target="_blank">Download our <span class="fontweight-bold">ebook Flex vs All or Nothing</span></a>'
+      mode_diff_link: 'See the difference between the models'
+      flex_diff_html: '<span class="fontweight-semibold">Commitment&nbsp;<br></span>You agree to create your project and deliver the rewards (if you have chosen to offer them), <span class="fontweight-semibold">regardless of the amount collected</span><br><br><span class="fontweight-semibold">How it works?</span><br>You receive, at the end of the term, all that you have collected (discounting only the rate of OppoStarter), regardless of reaching the collection goal.<br><br><span class="fontweight-semibold">Deadline for the project online: </span>12 months<br><br><span class="fontweight-semibold">Fees: </span>5% of total collected'
+      aon_diff_html: '<span class="fontweight-semibold">Commitment&nbsp;</span><br>You agree to execute the project and deliver the rewards only <span class="fontweight-semibold">if the revenue reaches or exceeds the target.</span><br><br><span class="fontweight-semibold">How it works?</span><br>You only receive the amount collected if, at the end of the term,&nbsp;has reached the collection goal. Otherwise, all your supporters receive their payments back.<br><br><span class="fontweight-semibold">Deadline for the project online: </span>60 days&nbsp;&nbsp;<br><br><span class="fontweight-semibold">Fees: </span>5% of total collected'
+      submit: "Save"
+      kind_label: "Type of financing"
+      kind_link: "If you want to know more, click here"
+      flex:
+        kind_text: "You are participating in the flexible model trial period. Your participation is essential to understand how we can expand this model for all users. %{link}"
+    dashboard_description:
+      submit: "Save"
+      description_label: 'Project description'
+      description_hint: 'Speak with passion and clarity about what will be accomplished. Clarify possible questions about how the money will be used, who is behind the project, how and when the project will be delivered. Transparency attracts more supporters. Remember: your project will be accessed by ordinary people who will decide whether or not to support your project.'
+      description_alert: '<span class="fa fa-fw fa-lightbulb-o"></span> Know how <a class="alt-link" href="https://catarse.attach.io/BJmQVOiR" target="blank"> create a captivating description!</a>'
+    dashboard_reward:
+      submit: "Save"
+      add_reward: "Add Reward"
+      reward: "Reward"
+    dashboard_announce_expiration:
+      explanation_01: 'Once the project is expiring, we will open a 7 day countdown. You can receive support until:'
+      explanation_02: 'This is an irreversible action. Once the project duration is set, you will no longer be able to change its deadline for funding. At the end of the term, you receive all the amount collected.'
+    dashboard_preview:
+      aon:
+        header_subtitle: "It is time for feedbacks!"
+        header_text: "Share the link below with your friends and take the time to make fine adjustments to help your campaign."
+      flex:
+        header_subtitle: "It is time to listen to suggestions!"
+        header_text: "Share the link %{link} with your friends and take the time to make fine adjustments to help your campaign."
+        publish_btn_html: "I am satisfied! <br>I want to publish my project now"
+    dashboard_posts:
+      only_to_backers: "I want this news to be visible only to supporters."
+      publish: 'Publish novelty'
+      discard: 'Discard'
+      warning: "All news releases are sent directly to their supporters by email. Please review the post before posting."
+      old_posts: "Old news"
+    dashboard_budget:
+      submit: Save
+      budget_label: "Project budget"
+      budget_alert: '<span class="fa fa-fw fa-lightbulb-o"></span>See how-to tips<a class="alt-link" href="http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico?ref=ctrse_dashboard" target="_blank"> determine the goal of your project!</a>
+'
+    dashboard_card:
+      submit: Save
+      card_label: "Project Card"
+      headline_label: 'Headline'
+      headline_label_hint: 'Phrase on the project card to call supporters. Must have a maximum of 100 characters and summarize the project well.'
+      uploaded_image_label: 'Image of the project'
+      uploaded_image_hint: 'This image will be used as the thumbnail of your project (PNG, JPG size 720 x 400)'
+    dashboard_video:
+      submit: Save
+      video_label: 'Project video'
+      video_hint: 'Link to Vimeo or Youtube. This is the main video for your campaign.'
+      video_alert: '<span class="fa fa-fw fa-lightbulb-o"></span>See examples of <a class="alt-link" href="http://crowdfunding.catarse.me/videomakers?ref=ctrse_dashboard_video" target="_blank"> videos by OppoStarter!</a>'
+      aon:
+        card_label: "Video"
+        video_url: "Project video"
+        video_url_hint: ""
+        video_url_subtitle: "Link to Vimeo or Youtube. This is the main video for your campaign."
+      flex:
+        card_label: "Video"
+        video_url: "Project video"
+        video_url_hint: ""
+        video_url_subtitle: "Link to Vimeo or Youtube. This is the main video for your campaign. "
+    dashboard_basics:
+      permalink: 'Link to your project on OppoStarter'
+      permalink_hint: 'You can edit it until the project goes online. Choose something simple, straightforward, and identify your project well. Try not to use hyphen, underline etc..'
+      tags: 'Tags'
+      tags_hint: 'List up to 5 keywords related to your campaign and facilitate discovery by supporters.'
+      tags_max_error: 'You can use up to 5 tagss'
+      admin_tags: 'Admin Tags'
+      admin_tags_hint: 'Insert tags separated by commas'
+      user_id: 'User ID'
+      tracker_snippet_html: 'Tracker snippet html'
+      city: 'Project Location'
+      city_hint: 'Where will your project be carried out? If it happens in more than one place, one tip is to put the city where your network of potential supporters is larger.'
+      online_date: 'Days online'
+      user_id: 'User ID'
+      service_fee: 'OppoStarter Fee'
+      name: 'Project name'
+      name_hint: 'Give a name that people will remember easily. Do not exceed 50 characters.'
+      name_label: 'The more direct the better. Do not exceed 50 characters'
+      url: 'Project URL'
+      url_label: 'This is the address of your project, it should be easy to memorize. Avoid underline, hyphen and symbols'
+      category: 'Category'
+      category_hint: 'Choose the one that best fits your project.'
+      category_label: 'Explore and be inspired by other projects of the same category as your.'
+      online_days: 'Deadline for collection'
+      online_days_label: 'You can choose between 1 and 60 days for your campaign. Check out the directors guide for tips on deadlines.'
+      value: 'Amount to be collected'
+      value_secondary: 'Plan a goal that is consistent with what your project proposes. Review your budget and be sure to include the 5% fee charged by OppoStarter if your project is successful'
+      form:
+        submit: 'Save'
+    contributions_report:
+      legend_labels:
+        failed:
+          pending_refund:
+            label: 'Refund in progress'
+            text: 'Supporter already provided bank details and refund is in progress.'
+          refunded:
+            label: 'Refunded'
+            text: 'Credit card support: the amount has already been reversed on the card used by the supporter and should appear as credit on up to 2 invoices. <br/>
+                   Supports made with Bank slip: the amount has already been transferred to the sponsor BALANCE so that it realizes the service. <br/>
+                   <a href="http://suporte.catarse.me/hc/pt-br/articles/202365507-Regras-e-funcionamento-dos-reembolsos-estornos-cancelamentos" target="blank">(know more)</a>'
+          paid:
+            label: 'Refund not started'
+            text: 'Supporters has not yet provided bank details for OppoStarter to make the refund or the data provided is incorrect.'
+        successful:
+          paid:
+            label: 'Confirmed'
+            text: 'Credit card or ticket support, which has been paid for and confirmed by the system.'
+          refunded:
+            label: 'Answered'
+            text: 'Supports that were canceled by the supporter after payment.'
+        online:
+          paid:
+            label: 'Confirmed'
+            text: 'Credit card or ticket support, which has been paid for and confirmed by the system.'
+          pending:
+            label: 'Started'
+            text: 'Ticket supports that have not yet been paid or that have not yet been accounted for in the system.<br/> Note: Once paid, the ticket may take up to 2 business days to be confirmed in the system.'
+          refunded:
+            label: 'Answered'
+            text: 'Supports that were canceled by the supporter after payment.'
+    successful_onboard:
+      start:
+        href: '#confirm_account'
+        icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3508dbfc50aef5095c66a_finish-icon.png'
+        title: 'Congratulations!'
+        text: 'Your project has successfully completed and your balance is now available to be transferred to your bank account.'
+        cta: 'View balance'
+      pending_transfer:
+        icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350c5e7d136a016bc34a4_transfer-ok-icon.png'
+        title: 'Bank transfer in progress'
+        text: 'The transfer of US$%{total_amount} shall be made to the Bank account %{bank_name}, Agency: %{agency}, Account: %{account}. If there is any problem, we will contact you by email %{user_email}.<br/><br/>
+<a href="http://fazum.catarse.me/calculadora-repasse" target="blank">Veja aqui</a> como calcular a data em que o dinheiro deverá entrar na sua conta!'
+      error_account:
+        icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350fabfc50aef5095c67d_transfer-pending-icon.png'
+        title: 'Transferência bancária pendente'
+        text: 'There is an error with your bank details and we have already been notified about this problem! Keep an eye on <span class="fontweight-semibold">%{user_email}</span>, because we will solve this problem via email within 5 business days.'
+      finished:
+        icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3511ee7d136a016bc34fa_succesful-icon.png'
+        title: 'Good luck in your project.!'
+        text: 'Always work on your relationship with your supporters! Even after the end of the project, continue using the <a href="%{link_news}">News tab</a>. To confirm the delivery address and other issues related to the delivery of the rewards, use the <a href="%{link_surveys}">Questionnaire tab</a>.'
+      confirm_account:
+        title: 'Your details is correct?'
+        person:
+          label: 'Person: '
+          mei:
+            label: 'Legal MEI'
+            name: 'Company Name: '
+            document: 'CNPJ of the bank account holder: '
+          pj:
+            label: 'Legal'
+            name: 'Company Name: '
+            document: 'CNPJ of the bank account holder: '
+          state_inscription: 'State registration: '
+          pf:
+            label: 'Physical'
+            name: 'Full name of holder: '
+            document: 'CPF of bank account holder: '
+          bank:
+            name: 'Bank: '
+            agency: 'Agency: '
+            account: 'Account: '
+            account_type:
+              conta_corrente: 'Checking Account'
+              conta_poupanca: 'Savings account'
+              conta_corrente_conjunta: 'Joint Current Account'
+              conta_poupanca_conjunta: 'Joint Savings Account'
+          address: 'Address: '
+          neighbourhood: 'District: '
+          city: 'City: '
+          state: 'State: '
+          zip_code: 'Zip code: '
+        accept:
+          title: 'Are you sure?'
+          info: 'Any incorrect information may delay the transfer of funds!'
+          cta: 'Confirm'
+        refuse:
+          title: 'What is wrong with your details?'
+          placeholder: 'Help us by filling in everything! This will make our work easier and save your time..'
+          cta: 'Submit'

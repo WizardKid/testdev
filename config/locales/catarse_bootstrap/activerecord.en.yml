@@ -1,0 +1,492 @@
+en:
+  activerecord:
+    models:
+      channel: Channel
+      project: Project
+      flexible_project: Project
+      reward: Reward
+      contribution: Support
+      category: Category
+      bank_account: Bank Details
+      address: Address
+    attributes:
+      project_account:
+        address_city: City
+        address_complement: 2nd Address
+        address_neighbourhood: District
+        address_number: Number
+        address_state: State
+        address_street: Address
+        address_zip_code: Zip Code
+        cpf: 'CPF / CNPJ '
+        state_inscription: 'Registered State'
+        email: Email
+        full_name: "Full Name / Company Name"
+        phone_number: "Telephone"
+        bank: 'Bank'
+        bank_id: 'Bank'
+        owner_name: 'Cardholder Name'
+        owner_document: 'CPF of bank account holder'
+        agency: 'Agency'
+        agency_digit: 'Agency Digit'
+        account: 'Account No.'
+        account_digit: 'Account Digit'
+        account_type: 'Account Type'
+      bank_account:
+        account_type: 'Account Type'
+        input_bank_number: "Bank Number"
+        bank: 'Bank'
+        bank_id: 'Bank'
+        owner_name: 'Cardholder Name'
+        owner_document: 'CPF/CNPJ of the holder'
+        agency: 'Agency'
+        agency_digit: 'Agency Digit'
+        account: 'Account No.'
+        account_digit: 'Account Digit'
+      payment:
+        state: 'Status'
+      contribution:
+        payer_name: "Full Name / Company Name *"
+        payer_email: "Email"
+        payer_document: "CPF or CNPJ"
+        country: "Country"
+        address_street: "Street"
+        address_number: "Number"
+        address_complement: "2nd Address"
+        address_neighbourhood: "District"
+        address_state: "State"
+        address_city: "City"
+        address_zip_code: "Zip code"
+        address_phone_number: "Telephone"
+        value: Amount of support
+        payer_name: "Full Name / Company Name *"
+        payer_email: "Email"
+        country: "Country"
+        address_street: "Street"
+        address_number: "Number"
+        address_complement: "2nd Address"
+        address_neighbourhood: "District"
+        address_state: "State"
+        address_city: "City"
+        address_zip_code: "Zip code"
+        address_phone_number: "Telephone"
+        reward: Reward
+        project: project
+      reward:
+        deliver_at: Estimated Delivery
+      flexible_project:
+        name: 'Name of Project'
+        channels: Channels
+        category: Category
+        expires_at: Deadline
+        online_days: "Deadline for collection"
+        headline: "Headline"
+        image_url: "Image URL"
+        name: "Name of Project"
+        goal: "Amount to be collected"
+        about_html: "Project description"
+        user_id: "User ID"
+        service_fee: 'OppoStarter Fee'
+        video_url: "Video URL"
+        permalink: 'Link to your project on oppostarter'
+        all_tags: 'Admin Tags'
+        all_public_tags: 'Tags'
+        city: 'Project Location'
+        more_links: 'Indicate links so people know more about your project and its progress.'
+        traffic_sources: 'How did you heard about OppoStarter?'
+        first_contributions: "Who are the first people you will ask to support your project?"
+        budget: 'Project Budget'
+        uploaded_image: 'Image of the project'
+      project:
+        name: 'Name of Project'
+        channels: Channels
+        category: Category
+        expires_at: Deadline
+        online_days: "Deadline for collection"
+        headline: "Headline"
+        image_url: "Image URL"
+        name: "Name of Project"
+        service_fee: 'Oppostarter'
+        goal: "Amount to be collected"
+        about_html: "Project description"
+        user_id: "User ID"
+        video_url: "Video URL"
+        permalink: 'Link to your project'
+        all_tags: 'Admin Tags'
+        all_public_tags: 'Tags'
+        city: 'Project Location'
+        more_links: 'Indicate links so people know more about your project and its progress.'
+        traffic_sources: 'How did you heard about OppoStarter?'
+        first_contributions: "Who are the first people you will ask to support your project?"
+        budget: 'Project Budget'
+        uploaded_image: 'Image of the project'
+      address:
+        delivery_address: Estimated Delivery
+        address_city: City
+        address_complement: 2nd Address
+        address_neighbourhood: District
+        address_number: Number
+        address_state: State
+        address_street: 'Address (Street, Avenue, etc.))'
+        zipcode_unknown: 'I do not know my Zip codeCEP'
+        address_zip_code: Zip code
+        phone_number: Telephone
+        country: Country
+      user:
+        public_name: 'Public name'
+        birth_date: 'Date of Birth'
+        uploaded_image: 'Profile picture'
+        cover_image: 'Profile Cover Image'
+        address_city: City
+        address_complement: 2nd Address
+        address_neighbourhood: District
+        address_number: Number
+        address_state: State
+        address_street: Address
+        address_zip_code: Zip code
+        cpf: 'CPF / CNPJ '
+        cpf_hint: '(?)'
+        state_inscription: 'State registration'
+        current_password: "Current Password"
+        email: Email
+        full_name: "Full Name / Company Name"
+        bio: 'Mini Bio'
+        name: "Full Name / Company Name"
+        newsletter: 'I want to receive news from OppoStarter'
+        password: Senha
+        password_confirmation: "Password Confirmation"
+        phone_number: "Telephone"
+        cpf_hint_title: Invoice will be issued for this document
+        id: ID
+        moip_login: MoIP Login
+        moip_login_hint: "(How to create an account)"
+        reset_password_token: "Link to reset password"
+      channel:
+        ga_code: Analytics code
+        description: Description
+        how_it_works: How it works
+        image: Image of news
+        name: Name
+        video_url: Video
+      channel_partner:
+        name: 'Name'
+        url: 'Site'
+        image: 'Image'
+      project_post:
+        title: 'Title'
+        comment: 'Text'
+      channel_post:
+        title: 'Title'
+        body: 'Content'
+        visible: 'Publish (Check if you want to publish this news)'
+    errors:
+      models:
+        payment:
+          duplicate: "Your payment is already being processed"
+        contribution: "Error saving support"
+        shipping_fee:
+          attributes:
+            destination:
+              blank: 'Shipping status can not be left blank'
+            value:
+              blank: 'Shipping cost can not be left blank'
+        reward:
+          attributes:
+            title:
+              blank: 'Title can not be empty'
+            description:
+              blank: 'Description can not be empty'
+            minimum_value:
+              blank: 'Minimum value can not be empty'
+        bank_account:
+          invalid: "Invalid account"
+          attributes:
+            bank:
+              blank: 'Bank can not be empty'
+            owner_name:
+              blank: 'Holder name can not be empty'
+              invalid: 'Enter a name with a minimum of 5 and a maximum of 30 letters'
+            owner_document:
+              blank: 'CPF / CNPJ can not be empty'
+              invalid: 'Invalid CPF / CNPJ'
+            agency:
+              blank: 'can not be left blank'
+              invalid: 'invalid'
+            account:
+              blank: 'can not be left blank'
+            account_digit:
+              blank: 'can not be left blank'
+              invalid: 'invalid'
+            agency_digit:
+              blank: 'can not be left blank'
+              invalid: 'invalid'
+        project_account:
+          invalid: 'Account is not valid'
+          attributes:
+            full_name:
+              blank: "Company Name can not be left blank"
+            email:
+              blank: "User email can not be left blank"
+              invalid: "Invalid user email"
+            cpf:
+              blank: "User CPF can not be left blank"
+              invalid: "Invalid CPF"
+            address_street:
+              blank: "User address can not be left blank"
+            address_number:
+              blank: "Number at user address can not be empty"
+            address_city:
+              blank: "User city can not be empty"
+            address_state:
+              blank: "User state can not be empty"
+            address_zip_code:
+              blank: "User zip code can not be left blank"
+            phone_number:
+              blank: "User phone can not be empty"
+            bank:
+              blank: "User bank can not be empty"
+            agency:
+              blank: "User Agency can not be left blank"
+              invalid: "Invalid Agency"
+            agency_digit:
+              blank: "User agency digit can not be empty"
+            account:
+              blank: "User account No. can not be empty"
+              format: "Invalid user account no."
+            account_digit:
+              blank: "User account digit can not be empty"
+            owner_name:
+              blank: "Username can not be empty"
+            owner_document:
+              blank: "CPF / CNPJ of the user title can not be left blank"
+              not_same: "CPF / CNPJ of the filled bank are not equal."
+            account_type:
+              blank: "Account type can not be empty"
+        flexible_project:
+          attributes:
+            rewards:
+              at_least_one: 'There must be at least one reward'
+            city:
+              blank: Project location can not be left blank
+            video_url:
+              blank: 'Project video can not be empty'
+            budget:
+              blank: 'Project budget can not be left blank'
+            uploaded_image:
+              blank: 'Project image can not be empty'
+            name:
+              too_long: "Project name is too long (max: 50 characters)"
+              blank: "Project name can not be empty"
+            permalink:
+              blank: "Project URL can not be empty"
+              invalid: "The project URL is invalid"
+              taken: "This project URL already exists"
+            category:
+              blank: "You must choose a category for your project"
+            goal:
+              blank: "Goal value can not be empty"
+              greater_than: "Goal must be greater than 9"
+              not_a_number: "Collection goal only accepts numbers"
+            online_days:
+              blank: "The collection period can not be left blank"
+              greater_than: "The deadline for collection must be greater than 2 days"
+              less_than_or_equal_to: "The collection deadline must be less than or equal to 365 days for flex projects and less than or equal to 60 days for all-or-nothing projects"
+              not_a_number: "The deadline for collection must be a number of days"
+            about_html:
+              blank: "Project description can not be left blank"
+            headline:
+              blank: "Project headline can not be left blank"
+              too_long: "The headline is too long. You can use up to 100 characters."
+        project:
+          attributes:
+            rewards:
+              at_least_one: 'There must be at least one reward'
+            city:
+              blank: Project location can not be left blank
+            video_url:
+              blank: 'Project video can not be empty'
+            budget:
+              blank: 'Project budget can not be left blank'
+            uploaded_image:
+              blank: 'Project image can not be empty'
+            name:
+              too_long: "Project name is too long (max: 50 characters)"
+              blank: "Project name can not be empty"
+            permalink:
+              blank: "Project URL can not be empty"
+              invalid: "The project URL is invalid"
+              taken: "This project URL already exists"
+            category:
+              blank: "You must choose a category for your project"
+            public_tags:
+              less_than_or_equal_to: 'Total tags must be less than or equal to 5'
+            goal:
+              blank: "Goal amount can not be empty"
+              greater_than: "Goal must be greater than 9"
+              not_a_number: "Collection goal only accepts numbers"
+            online_days:
+              blank: "The collection period can not be left blank"
+              greater_than: "The deadline for collection must be greater than 2 days"
+              less_than_or_equal_to: "The deadline for collection must be less than or equal to 60 days for all-or-nothing projects and less than or equal to 365 days for flex projects"
+              not_a_number: "The deadline for collection must be a number of days"
+            about_html:
+              blank: "Project description can not be left blank"
+            headline:
+              blank: "Project headline can not be left blank"
+              too_long: "The headline is too long. You can use up to 100 characters."
+        bank_account:
+          attributes:
+            bank_id:
+              blank: "User bank can not be empty"
+              invalid: "Invalid Bank"
+            bank:
+              blank: "User bank can not be empty"
+              invalid: "Invalid Bank"
+            agency:
+              blank: "User Agency can not be left blank"
+              invalid: "Invalid Agency"
+              format: "Invalid Agency"
+            agency_digit:
+              blank: "User agency digit can not be empty"
+              invalid: "Invalid Agency Digit"
+              format: "Invalid Agency Digit"
+            account:
+              blank: "Account No. can not be empty"
+              format: "Invalid account number"
+              invalid: "Invalid account number"
+            account_digit:
+              blank: "Account digit can not be empty"
+              format: "Invalid account digit"
+              invalid: "Invalid account digit"
+            account_type:
+              blank: "Account type can not be empty"
+            owner_document:
+              blank: "CPF/CNPJ can not be empty"
+              invalid: "Invalid CPF/CNPJ"
+            owner_name:
+              blank: "Username can not be empty"
+              invalid: "Username can not be empty"
+
+        user:
+          attributes:
+            email:
+              not_found: "Email is not registered, check the address or signup"
+              taken: "Email is already registered, sign in"
+              invalid: "This email address is invalid"
+              blank: "Email can not be empty"
+            password:
+              too_short: "The password is too short. At least 6 characters."
+              confirmation: "The password and the password confirmation you entered are not the same"
+              blank: "Password can not be empty"
+            current_password:
+              invalid: "Current password is not valid"
+            reset_password_token:
+              invalid: 'Token has expired. Go to <a href="/password/new" class="alt-link">reset password</a> and ask to reset the password again.'
+            name:
+              blank: "Username can not be empty"
+            public_name:
+              blank: "Public name can not be empty"
+            birth_date:
+              blank: "Date of birth can not be left blank"
+            about_html:
+              blank: "About you can not be left blank"
+            uploaded_image:
+              blank: "User image can not be left blank"
+            address_street:
+              blank: "Address can not be left blank"
+            address_number:
+              blank: "Number at address can not be empty"
+            address_city:
+              blank: "City can not be left blank"
+            address_state:
+              blank: "State can not be left blank"
+            address_neighbourhood:
+              blank: "District can not be left blank"
+            address_zip_code:
+              blank: "Zip code can not be empty"
+            phone_number:
+              blank: "Phone can not be left blank"
+            country_id:
+              blank: "Country can not be left blank"
+            cpf:
+              blank: "CPF/CNPJ can not be empty"
+              invalid: "Invalid CPF/CNPJ"
+
+
+  project:
+    update:
+      success: Information was updated
+      failed: 'Your information has not been saved, please verify that all fields have been filled out correctly'
+    delete:
+      posts: 'New successfully deleted'
+    video_regex_validation: only Youtube or Vimeo URLs are accepted
+  payment:
+    state:
+      pending: "Awaiting payment confirmation"
+      paid: "Confirmed in %{date}"
+      refunded: "Refunded on %{date}"
+      pending_refund: "Refund requested in %{date}"
+      refused: "Payment declined in %{date}"
+      chargeback: "Chargeback"
+  contribution:
+    payment_details:
+      desconhecido: ""
+      creditos: "Credits"
+      boleto_bancario: "Bank slip"
+      cartao_de_credito: "Credit card"
+      debito_bancario: "Bank debit"
+      cartao_debito: "Debit card"
+      transferencia_bancaria: "Bank transfer"
+      carteira_mo_ip: "MoIP Portfolio"
+      financiamento_bancario: "Financial Services"
+    project_should_be_online: You can not support a project that is not online
+    reward_must_be_from_project: must be from the same project
+    should_not_contribute_if_maximum_contributions_been_reached: already reached your number
+       maximum of supporters
+    value_must_be_at_least_rewards_value: must be at least %{minimum_value} for
+       the selected reward
+  contribution_report_to_project_owner:
+    reward_description: Reward Description
+    deliver_at: Reward submission date
+    confirmed_at: Payment confirmation date
+    created_at: Date of support creation 
+    contribution_id: Support ID
+    contribution_value: Value of support
+    service_fee: OppoStarter Fee
+    user_id: User ID
+    user_email: Email profile on OppoStarter
+    user_name: Full name
+    title: Reward Title
+    public_name: Public name
+    gateway: Methods of payment
+    anonymous: Anonymous
+    address_type: Type of address
+    street: Street
+    complement: 2nd Address
+    address_number: Number
+    neighbourhood: District
+    city: City
+    address_state: State
+    zip_code: Zip code
+    open_questions: open_questions
+    multiple_choice_questions: multiple_choice_questions
+    shipping_choice: 'Delivery location'
+    shipping_option: 'Send'
+  user:
+    no_name: No Name
+    contributions_text:
+      many: "Supported this and more %{total} projects"
+      one: "Only supported this project so far"
+      two: "Supported this and 1 other project"
+  channels_subscribers:
+    created: 'Now you follow the %{channel}'
+    deleted: 'You failed to follow the %{channel}'
+  channels:
+    edit: Update channel
+    image_hint: Maximum size (600x121px)
+    subscribed: "+ %{count} followers"
+    back_to_news: '← Back to news'
+    follow: "Follow the channel"
+    following: "Following"
+    unfollow: "Unfollow"
+    subscribed: "%{count} following the channel"

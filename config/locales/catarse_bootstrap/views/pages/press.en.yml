@@ -1,0 +1,28 @@
+en:
+  pages:
+    press:
+      page-title: "Press room"
+      hero:
+        title: "Press room"
+      stats:
+        title: "Our numbers"
+        subtitle: "Many artists, designers, researchers, gamers, scientists, entrepreneurs and activists have found on the platform a powerful tool to make their actions and projects financially viable. This story can be told in numbers."
+        people_html: "People have already supported at least <br>1 project on OppoStarter"
+        projects_html: "Projects have already been <br>funded on OppoStarter"
+        money_html: "Donated to projects <br>published here"
+        cta_html: "View full details separated by category &gt;"
+      abstract:
+        title: "OppoStarter is the first and largest crowdfunding site, or collective financing. We are the meeting point of a growing community of people interested in, together, contribute financially to take out projects of various categories."
+      history:
+        title: "History of the OppoStarter Foundation"
+        subtitle: "First collective funding platform for creative projects, OppoStarter was launched on January 17, 2018. The foundation manifesto said that the site was born with the desire: to see brilliant people with projects become successful..."
+        cta_html: "Read the full story &gt;"      
+      social:
+        title: "Follow Our Stories"
+        news: "Subscribe to our weekly newsletter"
+      assets:
+        title: "Needs high-resolution files from our brand and seals?" 
+        cta_html: "Download our brands &gt;" 
+      email:
+        title: "Want to talk with us?"
+        cta: "communication@oppostarter.com"

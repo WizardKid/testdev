@@ -1,0 +1,205 @@
+en:
+  admin: &admin
+    filter:
+      title: 'Filters'
+    confirm_dialog: 'Are you sure?'
+    financials:
+      index:
+        id: ID
+        name: 'Title'
+        user: 'MoIP User'
+        user_id: 'User ID'
+        goal: 'Goal'
+        total_payment_service_fee: 'MP fee'
+        total_catarse_fee: 'OppoStarter Fee'
+        zero_fee: 'Support without fee?'
+        repass_value: 'Vl. Repass'
+        expires_at: 'Finish'
+        online_date: 'Entered online'
+        pledged: 'Reached'
+        recommended: 'Recommended?'
+        state: 'State'
+        menu: 'Financial Relation'
+        title: 'Financial reports'
+        contribution_report: "Report of supporters"
+        search_report: "Search Report"
+        total_projects: 'projects'
+        submit: 'filter'
+        by_state: 'By State'
+        between_expires_at: 'Expired Between'
+        by_progress: By process %
+        details:
+          name: 'Company Name'
+          bank_data: 'Bank details'
+          document: 'CPF / CNPJ'
+          email: 'Email'
+          state_inscription: 'State registration'
+          address: 'Address'
+          phone_number: 'Telephone'
+          permalink: 'Project Permalink'
+    balance_transfers:
+      admin_notes:
+        success_update: 'Annotation saved successfully'
+        failed_updated: 'Annotation was not saved'
+    projects:
+      index:
+        with_state: 'By state'
+        by_category: 'By category'
+        project: 'Project'
+        user: 'User'
+        between_created_at: 'Created between'
+        goal_between: 'Goal between'
+        between_expires_at: 'Expired between'
+        between_online_at: 'Online between'
+        between_updated_at: 'Updated between'
+        by_user_email: 'Director email'
+        id: ID
+        name: 'Title'
+        send_to_trash: "Delete"
+        send_to_draft: 'Send to DRAFT!'
+        reject: 'Reject!'
+        approve: 'Approve!'
+        user_id: 'User ID'
+        goal: 'Goal'
+        total_contributions: 'Support'
+        online_date: 'Online date'
+        pledged: 'Reached'
+        recommended: 'Recommended?'
+        state: 'State'
+        no_projects: 'No projects found'
+        menu: 'Admin Projects'
+        title: 'Project Management'
+        total_projects: 'projects'
+        submit: 'filter'
+        expires_at: 'expires at'
+        category: 'Category'
+        order_table: 'Order table'
+        order_date: 'Order Date'
+        order_asc: 'Lowest goal'
+        order_desc: 'Highest goal'
+        order_created_at: 'Send date'
+        last_modification: 'Last update'
+    actions:
+      confirm: 'Confirm'
+    users:
+      index:
+        title: "Management of supporters"
+        menu: "Users"
+        credits: "Credits"
+        credits_view: "Calculated credits"
+        id: Id
+        key: Key
+        submit: Search
+        has_credits_difference: Discrepancy in credits
+        total_contributed: Total support
+        total_contributions: supporters
+        total_contributions: supports
+        total_users: Users
+        total_credits: credits
+        total_credits_view: calculated credits
+        user: User
+        value: Value
+        payer_email: Payment Email
+        provider: Provider
+    contributions:
+      messages:
+        successful:
+          confirm: 'Support confirmed successfully!'
+          pendent: 'Unsuccessful support successfully!'
+          refund: 'Support successfully refund!'
+          change_reward: 'Successfully modified reward!'
+          hide: 'Support hidden successfully!'
+          cancel: 'Support canceled successfully!'
+          push_to_trash: 'Support deleted successfully!'
+          request_refund: 'Refund requested successfully!'
+      show:
+        contribution_info: 'Contribution information %{key}'
+        payment_id: 'Payment ID'
+        payment_method: 'Methods of payment'
+        payment_fee: 'Methods of payment fee'
+        successful: 'Successful'
+        payment_choice: 'Payment option'
+        payer_email: 'Email used in payment method'
+        user_email: 'Email used in OppoStarter'
+        created_at: 'Started in'
+      index:
+        details:
+          payer_email: 'Payment medium email'
+          normal_email: 'Email on OppoStarter'
+          payment_id: 'Payment ID'
+          acquirer_tid: 'TID Operator'
+          payment_method: 'Methods of payment'
+          payment_choice: 'Payment option'
+          acquirer_name: 'Card Operator'
+          installments: 'Installments'
+          created_at: 'Started in'
+
+        placeholders:
+          project: 'Permalink or project name'
+          acquirer: 'Cardholder Name'
+          user: 'ID, Name, E-mail or Payment Email'
+          payment_id: Key, Payee ID or TID from the operator'
+        last_state: 'previous state'
+        acquirer: 'Operator'
+        payment_tax: 'Methods of payment fee'
+        project_state: 'Project state'
+        send_refund_request_contribution: 'Submit Refund Request'
+        payer_email: 'Payment medium email'
+        payment_id: 'Payment ID'
+        user_email: 'Email used in OppoStarter'
+        push_to_trash: 'Delete support'
+        cancel: 'Cancel support'
+        between_values: 'Values between'
+        by_state: 'State'
+        refund_and_hide: 'Do not charge and do not show support.'
+        pending_to_refund: 'Refund pending'
+        confirm_contribution: 'Confirm support'
+        unconfirm_contribution: 'Unconfirm Support'
+        refund_contribution: 'Refund support'
+        request_refund: 'Request Refund'
+        direct_refund: 'Direct Refund'
+        title: "Support Management"
+        state: 'current state'
+        menu: "Contribution"
+        anonymous: Anonymous?
+        contribution: Support
+        confirmed: Confirmed?
+        credits_html: "Used credits? &nbsp;"
+        id: ID
+        key: Key
+        no_contributions: "No supporters found."
+        project: Project
+        refunded: "Refund made?"
+        requested_refund: "Requested refund?"
+        reward: Reward
+        no_reward: "No reward"
+        submit: Search
+        total_contributed: collected
+        total_contributions: supporters
+        total_contribution: supports
+        total_users: Users
+        user: Users
+        value: Value
+    statistics:
+      index:
+        menu: "Statistics"
+        title: "Statistics"
+        total_users: "Users"
+        total_contributions: "Support"
+        total_contributors: "Supporters"
+        total_contributed: "Collection"
+        total_projects: "Projects"
+        total_projects_success: "Successful"
+        total_projects_online: "Online"
+      projects_in_analysis_by_week:
+        title: "Projects submitted for approval per week"
+      projects_by_week:
+        title: "Drafts created per week"
+      contributions_by_week:
+        title: "Support amount confirmed per week"
+      charts:
+        current_period: "Last 8 weeks"
+        last_year: "Last year"
+  channels:
+    admin:
+      <<: *admin

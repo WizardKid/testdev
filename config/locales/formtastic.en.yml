@@ -1,0 +1,62 @@
+en:
+  formtastic:
+    hints:
+      reward:
+        description: Describe your reward in a way that attracts people interest in supporting the project
+        maximum_contributions: If your reward is limited, let the maximum number of people.
+        minimum_value: This is minimum amount of support to choose this reward.
+        days_to_delivery: Please tell us how many days after the success of the project you plan to deliver this reward
+      contribution:
+        credits: You have <strong>%{credits}</strong> in credits and can support
+          up to this amount without having to make a new payment.
+      project:
+        about: Tell us a little about your inspiration to carry out the project, your
+           history and what will be delivered at the end. Be brief and clear, and to
+          the point. No GOAL, JUSTIFICATION, TARGET AUDIENCE ... Present
+           your readers with something that moves them and is very transparent in relation to
+           the expectation about the project.
+        category: Before submitting your project, explore and inspire yourself with other projects
+           that is currently receiving support on the site.
+        first_contributions: For your campaign to succeed, it is
+           your closest contact network. So, list here who you believe
+           who will be their first 20 supporters
+        goal: "It is important to remember that much of the support will come from people close to
+           to you (1st and 2nd level of relationship): <a href='http://blog.catarse.me/sua-campanha-no-catarse-precisa-de-um-empurrazinho'
+          target='_blank'>Clique aqui!</a> In this way, by setting the amount you want
+           to collect through the OppoStarter, it is fundamental to think of its ability to mobilize
+           at least 50% of the value within your network."
+        headline: Summarize your project in 140 characters. This sentence will be the first
+           people with your project, before even watching the video. Be
+           creative, transparent and direct :)
+        more_links: What channels of support will be used? (Place links
+           such as Facebook, Twitter, Blogs ... everything that will help you spread your word
+           project)
+        name: The more direct the better. Leave to describe your project in About
+           and in the Video.
+        online_days: On average the projects stay online for 40 days.
+        uploaded_image: Here you upload an image (.jpg) with size 512x400.
+        video_url: The video is the main part of the project. If you have not already, now is
+           the time to add one ... The video need to be a working view of your project!
+        video_url_edit: Paste your link of your video hosted on Vimeo or Youtube.
+    labels:
+      reward:
+        description: Description
+        minimum_value: Minimum Amount
+        days_to_delivery: Estimated Delivery
+        maximum_contributions: Maximum number of supporters (optional)
+      contribution:
+        credits: I want to use my credits for this support.
+        anonymous: I want my support to be anonymous.
+        value: How much do you want to support??
+        reward: Select your reward
+      project:
+        about: History of your project and how US$ will be used *
+        expires_at: How long to reach the minimum? *
+        first_contributions: List with the first supporters *
+        goal: How much do you intend to raise? (only numbers)*
+        headline: Headline *
+        traffic_sources: How did you first meet OppoStarter? *
+        more_links: List of Links related to your project *
+        name: Project name *
+        video_url: Video
+

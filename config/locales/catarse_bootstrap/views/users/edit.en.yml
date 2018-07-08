@@ -1,0 +1,88 @@
+en:
+  users:
+    edit:
+      settings_tab:
+        credit_cards:
+          title: 'Credit cards'
+          subtitle: 'If any project you have supported <strong>with credit card</strong> is not successful, we will refund you <strong>automatically</strong> on the card used to make the support.'
+          card_label: 'Card'
+          provider_label: 'Operator'
+          remove_label: 'Remove'
+        update_success_msg: 'Your information has been updated'
+        legal_title: 'Responsible'
+        legal_subtitle: '<strong>IMPORTANT</strong> Full name/Corporate name and CPF/CNPJ <strong>can not be modified</strong> after being saved.'
+        account_types:
+          pf: 'Physical person'
+          pj: 'Legal person'
+          mei: 'Legal Entity (Micro Entrepreneur Individual - MEI)'
+        pf_label_name: 'Full name'
+        pj_label_name: 'Full Name / Company Name'
+        pf_label_document: 'CPF'
+        pj_label_document: 'CNPJ'
+        label_birth_date: 'Date of birth'
+        label_state_inscription: 'State registration'
+        address_title: 'Address'
+        address_subtitle: 'The address details will be used for billing, if applicable.'
+        label_country: 'País'
+        label_address_street: 'Address (Street, Avenue...)'
+        label_address_number: 'Number'
+        label_address_complement: '2nd Address'
+        label_address_neighbourhood: 'District'
+        label_address_city: 'City'
+        label_address_state: 'State'
+        label_other_option: 'Other / other'
+        label_address_zipcode: 'Zip Code'
+        label_address_phone: 'Telephone'
+      email_confirmation:
+        hello: "Hello %{name}"
+        hello_sub: "We are having trouble contacting you...."
+        hello_email: "This is your contact email.? %{email}"
+        confirmed_title: "Be sure to check out our emails!"
+        confirmed_sub: "Check your SPAM and authorize OppoStarter emails."
+      contributions: "Supported"
+      projects: "Created"
+      about_me: "About you"
+      settings: "Details and address"
+      notification: "Notifications"
+      billing: "Bank and cards"
+      profil: "Go to the public profile"
+      feeds: "Activities"
+      submit: "Save"
+      contributions_fields:
+        no-project: "You have not yet supported any project on&nbsp;OppoStarter..."
+        contribute: "Support now!"
+      about_fields:
+        add_link: "+ Add link"
+        image_title: "Profile picture"
+        image_description: "This image will be used as the thumbnail of your profile (PNG, JPG size 280 x 280)"
+        cover_title: "Profile Cover Image"
+        cover_description: "This image will be used as the background of your public profile header (PNG or JPG). If you do not submit any images here, we will use your profile image as an alternative."
+        profil_address_title: "Your profile address"
+        profil_address_description: "Your public profile may have a custom URL."
+        name: "Name"
+        name_description: "This is the name that users will see in your public profile"
+        faceebook: "Facebook Profile"
+        facebook_description: "Paste your profile link"
+        twitter: "Twitter Profile"
+        twitter_description: "Paste your profile link"
+        homepage: "Presence on the internet"
+        homepage_description: "Include links to help other users get to know you better.&nbsp;"
+        about: "About"
+        about_description: "Tell us about yourself and try to provide the most relevant information so visitors can get to know you better.."
+      billing_fields:
+        credit_card: "Credit cards"
+        card_message: "If any project you have supported <b>With credit card</b> is not successful, we will refund you <b>automatically</b> on the card used to make the support."
+        card: "Card"
+        operator: "Operator"
+        bank_account: "Bank details"
+        bank_account_message: "If any project you have supported <b>with Bank slip</b> is not successful, we will refund your payment <b>automatically</b> in the account indicated below."
+      notifications_fields:
+        newsletters:
+          750382:
+            title: 'News of the week'
+            description: 'Featured projects and tips from our Blog, selected with care by our team.'
+            image_src: 'http://uploads.webflow.com/5849f4f0a275a2a744efd93e/59a714d438c73b0001ee8d83_news-img.jpg'
+          1370135:
+            title: 'Geek News'
+            description: 'Comics, boardgames, technology and digital games, inside and outside OppoStarter.'
+            image_src: 'http://uploads.webflow.com/5849f4f0a275a2a744efd93e/59a713dde51ca0000149ae85_geek-news-img.jpg'
