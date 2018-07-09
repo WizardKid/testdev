@@ -1,48 +1,48 @@
 - detail = contribution.details.ordered.first
 
-p Seguem todos os dados do pagamento:
+p Follow all payment details:
 p
-  | Nome do apoiador: #{contribution.user.display_name}
+  | Name of the supporter: #{contribution.user.display_name}
   br/
-  | CPF/CNPJ do apoiador: #{contribution.user.cpf}
+  | Supporter CPF / CNPJ: #{contribution.user.cpf}
   br/
-  | Data da confirmação do apoio: #{I18n.l(detail.paid_at.to_date)}
+  | Date of confirmation of support: #{I18n.l(detail.paid_at.to_date)}
   br/
-  | Valor da contribuição: #{number_to_currency contribution.value}
+  | Contribution Amount: #{number_to_currency contribution.value}
   - if detail.installments > 1
     br/
-    | Número de parcelas: #{detail.installments}
+    | Number of installments: #{detail.installments}
     br/
-    | Valor da parcela: #{number_to_currency(detail.installment_value, precision: 2)}
+    | Installment amount: #{number_to_currency(detail.installment_value, precision: 2)}
   br/
   -if contribution.reward.present?
-    | Recompensa selecionada: #{contribution.reward.description}
+    | Reward selected: #{contribution.reward.description}
     br/
-    | Estimativa de entrega: #{contribution.reward.display_deliver_estimate}
+    | Estimated delivery: #{contribution.reward.display_deliver_estimate}
     br/
-  | ID do apoio: #{detail.gateway_id}
+  | Support ID: #{detail.gateway_id}
   br/
   / We need the || for some old projects do not have the account info
   - owner = contribution.project.user
   - owner_name = owner.try(:name)
   - owner_document = owner.try(:cpf)
-  | Nome/Razão Social do realizador: #{owner_name}
+  | Name / Company Name of the director: #{owner_name}
   br/
-  | CPF/CNPJ do realizador: #{owner_document}
+  | CPF / CNPJ of the director: #{owner_document}
 
 p
-  ' É importante ressaltar que o Catarse <strong>não é uma loja</strong>,
-  ' e que esse recibo é referente a um apoio que você fez para um projeto que você acredita ser viável.
-  ' O Catarse não é responsável pela execução desse projeto ou pela entrega das recompensas.
-  ' #{link_to 'Relembre aqui', 'http://suporte.catarse.me/hc/pt-br/articles/115002214043'} como funciona o Financiamento Coletivo e quais são os papéis e responsabilidades
-  ' do Catarse, do Apoiador e do Realizador.
-  ' Caso tenha alguma dúvida em relação ao projeto ou recompensa selecionada 
-  ' entre em contato diretamente com o realizador através do e-mail #{mail_to owner.try(:email)}.
+  ' It is important to emphasize that OppoStarter <strong>is not a store</strong>,
+  ' and that this receipt is about support you made for a project that you believe is feasible.
+  ' OppoStarter is not responsible for the creation of this project or for the delivery of the rewards.
+  ' #{link_to 'Click Here', 'http://support.oppostarter.com/en/knowledgebase/3-getting-started/docs/3-responsibilities-and-security'} how Collective Financing works and what are the roles and responsibilities
+  ' of the OppoStarter, the Supporter and the Director.
+  ' If you have any questions regarding the selected project or reward 
+  ' please contact the director directly through the email #{mail_to owner.try(:email)}.
   
-p Se ficou com alguma dúvida, entre em contato conosco respondendo a esta mensagem ou através do e-mail #{mail_to CatarseSettings[:email_contact]}
+p If you have any questions, please contact us by replying to this message or via email #{mail_to CatarseSettings[:email_contact]}
 
 p
-  | Um abraço e muito obrigado,
+  | OppoStrter Team,
   br/
   | #{CatarseSettings[:company_name]}
 

@@ -1,16 +1,16 @@
 - message = @notification.direct_message
 
-|Olá <strong>#{message.project.try(:user).try(:display_name)}</strong>
+|Hello <strong>#{message.project.try(:user).try(:display_name)}</strong>
 br
 
-|Você recebeu uma nova mensagem de #{message.user.try(:display_name)}, através da página do projeto: #{message.project.name}:
+|You have received a new message from #{message.user.try(:display_name)}, through the project page: #{message.project.name}:
 br
 br
 
 p == message.content
 
 
-p Ao responder este email, <strong>você estará enviando uma mensagem diretamente para o endereço #{message.user.try(:email)}, que é o email de #{message.user.try(:display_name)}</strong>.
+p When replying to this email, <strong>you are sending a message directly to the address #{message.user.try(:email)}, what is the email of #{message.user.try(:display_name)}</strong>.
 
 
-p <strong>Importante</strong>: O Catarse não se responsabiliza pelo conteúdo das mensagens enviadas através da plataforma. Caso entenda que o conteúdo da mensagem se trata de spam ou que infringe de alguma forma os nossos Termos de Uso, pedimos que avise a nossa equipe através do email: #{mail_to CatarseSettings[:email_contact]}.
+p <strong>Important</strong>: Catarse is not responsible for the content of messages sent via the platform. If you understand that the content of the message is spam or that in any way violates our Terms of Use, we ask you to notify our staff via email: #{mail_to CatarseSettings[:email_contact]}.
